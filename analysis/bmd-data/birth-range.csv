@@ -1,0 +1,107 @@
+Descendant,Birth Range,Region,Persons
+Amelia,1800,India,1
+Amelia,1840,India,4
+Amelia,1840,South East Asia,1
+Amelia,1860,India,8
+Amelia,1860,North America,4
+Amelia,1860,South East Asia,2
+Amelia,1880,India,8
+Amelia,1880,North America,3
+Amelia,1880,South East Asia,6
+Amelia,1880,UK & Ireland,1
+Amelia,1900,Europe,1
+Amelia,1900,India,9
+Amelia,1900,North America,11
+Amelia,1900,South East Asia,12
+Amelia,1900,UK & Ireland,1
+Amelia,1920,India,2
+Amelia,1920,North America,9
+Amelia,1920,UK & Ireland,2
+Amelia,1940,Europe,6
+Amelia,1940,India,2
+Amelia,1940,North America,12
+Amelia,1940,UK & Ireland,1
+Amelia,1960,North America,2
+Amelia,1960,UK & Ireland,1
+Amelia,1980,UK & Ireland,5
+Elizabeth,1800,India,1
+Elizabeth,1820,India,3
+Elizabeth,1840,Burma,2
+Elizabeth,1840,India,4
+Elizabeth,1860,Australia & New Zealand,3
+Elizabeth,1860,Burma,1
+Elizabeth,1860,India,21
+Elizabeth,1880,At sea,1
+Elizabeth,1880,Australia & New Zealand,20
+Elizabeth,1880,India,13
+Elizabeth,1900,Australia & New Zealand,29
+Elizabeth,1900,India,9
+Elizabeth,1920,Australia & New Zealand,27
+Elizabeth,1920,India,5
+Elizabeth,1920,South East Asia,4
+Elizabeth,1940,Australia & New Zealand,20
+Elizabeth,1940,India,7
+Elizabeth,1940,UK & Ireland,1
+Elizabeth,1960,Australia & New Zealand,10
+Elizabeth,1960,India,2
+Elizabeth,1960,UK & Ireland,2
+Elizabeth,1980,Australia & New Zealand,2
+Elizabeth,1980,UK & Ireland,1
+George,1820,Africa,1
+George,1840,India,8
+George,1860,Burma,1
+George,1860,India,24
+George,1880,Burma,1
+George,1880,India,25
+George,1880,South East Asia,1
+George,1900,Burma,25
+George,1900,Europe,1
+George,1900,India,43
+George,1900,South East Asia,1
+George,1900,UK & Ireland,1
+George,1920,Australia & New Zealand,1
+George,1920,Burma,30
+George,1920,India,28
+George,1920,UK & Ireland,8
+George,1940,Australia & New Zealand,8
+George,1940,Burma,15
+George,1940,India,25
+George,1940,North America,2
+George,1940,UK & Ireland,18
+George,1960,Africa,1
+George,1960,Australia & New Zealand,11
+George,1960,Burma,1
+George,1960,Europe,1
+George,1960,North America,3
+George,1960,South East Asia,3
+George,1960,UK & Ireland,26
+George,1980,Australia & New Zealand,11
+George,1980,Europe,2
+George,1980,North America,10
+George,1980,UK & Ireland,12
+George,2000,Australia & New Zealand,2
+George,2000,North America,3
+George,2000,UK & Ireland,1
+John,1800,India,1
+John,1820,India,5
+John,1840,India,2
+John,1860,India,11
+John,1880,Africa,1
+John,1880,Burma,3
+John,1880,India,7
+John,1900,Burma,5
+John,1900,India,3
+John,1920,Burma,9
+John,1920,India,4
+John,1940,Burma,7
+John,1940,India,13
+John,1940,South East Asia,3
+John,1940,UK & Ireland,1
+John,1960,Africa,1
+John,1960,Burma,8
+John,1960,North America,1
+John,1960,UK & Ireland,16
+John,1980,Europe,1
+John,1980,UK & Ireland,16
+John,2000,Europe,1
+John,2000,UK & Ireland,5
