@@ -1,0 +1,75 @@
+﻿Descendant,Generation,Region,Persons
+Amelia,1,India,1
+Amelia,2,India,3
+Amelia,2,North America,1
+Amelia,2,South East Asia,1
+Amelia,3,Europe,2
+Amelia,3,India,9
+Amelia,3,North America,5
+Amelia,3,South East Asia,4
+Amelia,3,UK & Ireland,5
+Amelia,4,Australia & New Zealand,1
+Amelia,4,Europe,3
+Amelia,4,India,8
+Amelia,4,North America,19
+Amelia,4,South East Asia,7
+Amelia,4,UK & Ireland,5
+Amelia,5,India,2
+Amelia,5,North America,8
+Amelia,5,UK & Ireland,4
+Amelia,6,North America,2
+Elizabeth,1,India,1
+Elizabeth,2,Australia & New Zealand,3
+Elizabeth,2,India,5
+Elizabeth,3,Australia & New Zealand,20
+Elizabeth,3,India,17
+Elizabeth,3,UK & Ireland,1
+Elizabeth,4,Australia & New Zealand,36
+Elizabeth,4,India,14
+Elizabeth,4,North America,1
+Elizabeth,4,UK & Ireland,5
+Elizabeth,5,Australia & New Zealand,28
+Elizabeth,5,India,2
+Elizabeth,5,UK & Ireland,4
+Elizabeth,6,Australia & New Zealand,4
+Elizabeth,6,UK & Ireland,2
+George,1,India,1
+George,2,Burma,2
+George,2,India,13
+George,2,UK & Ireland,8
+George,3,Australia & New Zealand,5
+George,3,Burma,4
+George,3,Europe,1
+George,3,India,27
+George,3,UK & Ireland,22
+George,4,Africa,2
+George,4,Australia & New Zealand,12
+George,4,Burma,9
+George,4,Europe,1
+George,4,India,9
+George,4,North America,3
+George,4,South East Asia,1
+George,4,UK & Ireland,42
+George,5,Australia & New Zealand,10
+George,5,Burma,1
+George,5,North America,1
+George,5,South East Asia,1
+George,5,UK & Ireland,17
+George,6,Australia & New Zealand,3
+George,6,North America,2
+John,1,India,1
+John,2,India,7
+John,3,Africa,1
+John,3,Burma,2
+John,3,India,10
+John,4,Burma,6
+John,4,India,4
+John,5,Australia & New Zealand,2
+John,5,Burma,8
+John,5,Europe,1
+John,5,India,1
+John,5,North America,1
+John,5,UK & Ireland,8
+John,6,Australia & New Zealand,1
+John,6,UK & Ireland,3
+John,7,UK & Ireland,2
