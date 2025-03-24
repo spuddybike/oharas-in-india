@@ -1,36 +1,45 @@
-﻿Descendant,Generation,Region,Persons
+Descendant,Generation,Region,Persons
 Amelia,1,India,1
 Amelia,2,India,4
 Amelia,2,South East Asia,1
 Amelia,3,India,12
 Amelia,3,North America,5
-Amelia,3,South East Asia,8
+Amelia,3,South East Asia,9
 Amelia,4,Europe,1
 Amelia,4,India,11
-Amelia,4,North America,17
-Amelia,4,South East Asia,12
+Amelia,4,North America,16
+Amelia,4,South East Asia,21
 Amelia,4,UK & Ireland,2
-Amelia,5,Europe,6
-Amelia,5,India,6
-Amelia,5,North America,16
-Amelia,5,UK & Ireland,4
-Amelia,6,North America,3
-Amelia,6,UK & Ireland,5
+Amelia,5,Australia & New Zealand,1
+Amelia,5,Europe,7
+Amelia,5,India,10
+Amelia,5,North America,24
+Amelia,5,South East Asia,12
+Amelia,5,UK & Ireland,5
+Amelia,6,Africa,3
+Amelia,6,Australia & New Zealand,14
+Amelia,6,North America,16
+Amelia,6,South East Asia,1
+Amelia,6,UK & Ireland,13
+Amelia,6,(blank),1
+Amelia,7,North America,3
+Amelia,7,UK & Ireland,1
 Elizabeth,1,India,1
 Elizabeth,2,India,8
 Elizabeth,3,Australia & New Zealand,15
 Elizabeth,3,Burma,3
 Elizabeth,3,India,20
 Elizabeth,4,At sea,1
-Elizabeth,4,Australia & New Zealand,35
+Elizabeth,4,Australia & New Zealand,41
 Elizabeth,4,India,20
-Elizabeth,5,Australia & New Zealand,30
-Elizabeth,5,India,9
+Elizabeth,5,Australia & New Zealand,36
+Elizabeth,5,India,12
 Elizabeth,5,South East Asia,4
-Elizabeth,6,Australia & New Zealand,29
-Elizabeth,6,India,7
+Elizabeth,6,Australia & New Zealand,40
+Elizabeth,6,India,10
+Elizabeth,6,UK & Ireland,2
 Elizabeth,7,Australia & New Zealand,2
-Elizabeth,7,UK & Ireland,3
+Elizabeth,7,UK & Ireland,4
 Elizabeth,8,UK & Ireland,1
 George,1,Africa,1
 George,2,Burma,1
@@ -40,25 +49,25 @@ George,3,Europe,1
 George,3,India,56
 George,3,UK & Ireland,1
 George,4,Burma,39
-George,4,India,49
+George,4,India,53
 George,4,South East Asia,2
-George,4,UK & Ireland,2
+George,4,UK & Ireland,6
 George,5,Africa,1
-George,5,Australia & New Zealand,9
+George,5,Australia & New Zealand,10
 George,5,Burma,30
-George,5,Europe,1
-George,5,India,25
+George,5,Europe,3
+George,5,India,28
 George,5,North America,2
 George,5,South East Asia,3
-George,5,UK & Ireland,34
-George,6,Australia & New Zealand,24
+George,5,UK & Ireland,40
+George,6,Australia & New Zealand,25
 George,6,Burma,2
 George,6,Europe,2
 George,6,India,1
 George,6,North America,3
-George,6,UK & Ireland,25
+George,6,UK & Ireland,41
 George,7,North America,11
-George,7,UK & Ireland,4
+George,7,UK & Ireland,1
 George,8,North America,2
 John,1,India,1
 John,2,India,7
@@ -68,7 +77,7 @@ John,4,Burma,4
 John,4,India,5
 John,5,Burma,14
 John,5,India,7
-John,6,Burma,14
+John,6,Burma,13
 John,6,India,13
 John,6,North America,1
 John,6,South East Asia,3
