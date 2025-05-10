@@ -19,21 +19,22 @@ Amelia,1940,UK & Ireland,4
 Amelia,1960,Australia & New Zealand,2
 Amelia,1960,Europe,2
 Amelia,1960,India,1
-Amelia,1960,North America,6
+Amelia,1960,North America,7
 Amelia,1960,South East Asia,4
 Amelia,1960,UK & Ireland,5
 Amelia,1980,Australia & New Zealand,3
 Amelia,1980,Europe,1
-Amelia,1980,North America,9
+Amelia,1980,North America,11
 Amelia,1980,South East Asia,5
 Amelia,1980,UK & Ireland,2
 Amelia,2000,Australia & New Zealand,1
-Amelia,2000,Europe,2
+Amelia,2000,Europe,3
 Amelia,2000,North America,14
 Amelia,2000,South East Asia,1
 Amelia,2000,UK & Ireland,7
 Amelia,2020,Australia & New Zealand,3
 Amelia,2020,UK & Ireland,2
+Amelia,,Europe,1
 Elizabeth,1820,India,2
 Elizabeth,1860,India,8
 Elizabeth,1880,Australia & New Zealand,4
@@ -53,11 +54,11 @@ Elizabeth,1960,North America,1
 Elizabeth,1960,UK & Ireland,5
 Elizabeth,1980,Australia & New Zealand,23
 Elizabeth,1980,UK & Ireland,4
-Elizabeth,2000,Australia & New Zealand,30
+Elizabeth,2000,Australia & New Zealand,33
 Elizabeth,2000,India,1
 Elizabeth,2000,UK & Ireland,1
-Elizabeth,2020,Australia & New Zealand,2
-Elizabeth,2020,UK & Ireland,1
+Elizabeth,2020,Australia & New Zealand,3
+Elizabeth,2020,UK & Ireland,2
 Elizabeth,,India,1
 George,1840,India,2
 George,1860,India,5
@@ -72,8 +73,8 @@ George,1920,India,12
 George,1920,UK & Ireland,2
 George,1940,Africa,2
 George,1940,Australia & New Zealand,3
-George,1940,Burma,9
-George,1940,India,6
+George,1940,Burma,8
+George,1940,India,7
 George,1940,South East Asia,1
 George,1940,UK & Ireland,11
 George,1960,Australia & New Zealand,6
@@ -88,9 +89,9 @@ George,2000,Australia & New Zealand,13
 George,2000,Europe,1
 George,2000,North America,4
 George,2000,South East Asia,1
-George,2000,UK & Ireland,27
+George,2000,UK & Ireland,28
 George,2020,Australia & New Zealand,2
-George,2020,North America,2
+George,2020,North America,3
 George,2020,UK & Ireland,5
 John,1820,India,4
 John,1840,India,2
