@@ -1,4 +1,4 @@
-﻿Descendant,Generation,Region,Persons
+Descendant,Generation,Region,Persons
 Amelia,1,India,1
 Amelia,2,India,3
 Amelia,2,North America,1
@@ -21,7 +21,7 @@ Amelia,5,North America,13
 Amelia,5,South East Asia,1
 Amelia,5,UK & Ireland,10
 Amelia,6,Australia & New Zealand,3
-Amelia,6,North America,4
+Amelia,6,North America,5
 Amelia,6,UK & Ireland,1
 Elizabeth,1,India,1
 Elizabeth,2,Australia & New Zealand,3
@@ -29,15 +29,16 @@ Elizabeth,2,India,5
 Elizabeth,3,Australia & New Zealand,20
 Elizabeth,3,India,17
 Elizabeth,3,UK & Ireland,1
-Elizabeth,4,Australia & New Zealand,42
-Elizabeth,4,India,14
+Elizabeth,4,Australia & New Zealand,46
+Elizabeth,4,India,13
 Elizabeth,4,North America,1
 Elizabeth,4,UK & Ireland,5
-Elizabeth,5,Australia & New Zealand,36
-Elizabeth,5,India,2
-Elizabeth,5,UK & Ireland,6
+Elizabeth,5,Australia & New Zealand,38
+Elizabeth,5,India,4
+Elizabeth,5,South East Asia,1
+Elizabeth,5,UK & Ireland,8
 Elizabeth,6,Australia & New Zealand,6
-Elizabeth,6,UK & Ireland,2
+Elizabeth,6,UK & Ireland,3
 George,1,India,1
 George,2,Burma,2
 George,2,India,12
@@ -60,7 +61,7 @@ George,5,Australia & New Zealand,12
 George,5,Burma,1
 George,5,North America,2
 George,5,South East Asia,1
-George,5,UK & Ireland,22
+George,5,UK & Ireland,25
 George,6,Australia & New Zealand,4
 George,6,North America,2
 John,1,India,1
