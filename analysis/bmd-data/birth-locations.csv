@@ -1,4 +1,4 @@
-descendant,year,place,birth-lat,birth-long,count,
+Descendant,year,place,birth-lat,birth-long,count
 Amelia,1800,Madras,13.0878,80.2783,1
 Amelia,1840,Hyderabad,17.5042,78.5425,2
 Amelia,1840,Madras,13.0878,80.2783,1
@@ -39,15 +39,16 @@ Amelia,1920,Unknown,-31.9522222222222,115.861388888889,1
 Amelia,1940,Amersham,51.6667,-0.6167,1
 Amelia,1940,Hitchin,51.9531,-0.2650,2
 Amelia,1940,Jabalpur,23.1669,79.9500,2
+Amelia,1940,Jakarta,-6.21444444444444,106.845,2
 Amelia,1940,Kuala Lumpur,3.1411,101.6864,1
 Amelia,1940,Melrose Park,41.9005555555556,-87.8566666666667,1
 Amelia,1940,Moonee Ponds,-37.7666666666667,144.916666666667,1
 Amelia,1940,Penang,5.4111,100.3353,2
-Amelia,1940,Philadelphia,39.9519,-75.1642,19
+Amelia,1940,Philadelphia,39.9519,-75.1642,20
 Amelia,1940,Singapore,1.2894,103.8500,4
 Amelia,1940,Swindon,51.5578,-1.7811,1
-Amelia,1940,Unknown,52.3739,4.8894,3
-Amelia,1940,Victoria,-36.9447,144.0719,6
+Amelia,1940,Unknown,52.3739,4.8894,4
+Amelia,1940,Victoria,-36.9447,144.0719,4
 Amelia,1940,Wassenaar,52.3168,4.7678,4
 Amelia,1952,Philadelphia,39.9519,-75.1642,1
 Amelia,1960,Amersham,51.6667,-0.6167,1
@@ -56,9 +57,10 @@ Amelia,1960,Ealing,51.5119,-0.3019,1
 Amelia,1960,Hitchin,51.9531,-0.2650,1
 Amelia,1960,Lawley,-31.9341666666667,115.871388888889,4
 Amelia,1960,Melrose Park,41.9005555555556,-87.8566666666667,2
+Amelia,1960,Minneapolis,44.9797222222222,-93.2636111111111,3
 Amelia,1960,Painseville,41.7244444444444,-81.2455555555556,1
 Amelia,1960,Perth,-31.9522222222222,115.861388888889,2
-Amelia,1960,Philadelphia,39.9519,-75.1642,7
+Amelia,1960,Philadelphia,39.9519,-75.1642,10
 Amelia,1960,Swindon,51.5578,-1.7811,1
 Amelia,1960,Texas,32.7830555555556,-96.8066666666667,1
 Amelia,1960,Unknown,-29.8577777777778,31.0291666666667,3
@@ -66,6 +68,7 @@ Amelia,1960,Victoria,-36.9447,144.0719,1
 Amelia,1980,Cleveland,54.5606,-0.9881,1
 Amelia,1980,Ilford,51.5575,0.0728,1
 Amelia,1980,Lake,41.4819444444444,-81.7980555555556,1
+Amelia,1980,Newark,40.17,-74.5,2
 Amelia,1980,Painseville,41.7244444444444,-81.2455555555556,2
 Amelia,1980,Salford,53.4875,-2.2903,1
 Amelia,1980,Swindon,51.5578,-1.7811,4
@@ -80,7 +83,7 @@ Elizabeth,1860,Allahabad,25.4489,81.8331,1
 Elizabeth,1860,Andaman Islands,11.6667,92.7500,1
 Elizabeth,1860,Calcutta,22.5333,88.3167,8
 Elizabeth,1860,Carlton,-37.8003,144.9683,1
-Elizabeth,1860,Concanda,16.9892,82.2475,3
+Elizabeth,1860,Cocanada,16.9891666666667,82.2475,3
 Elizabeth,1860,Coonor,11.3469,76.7983,4
 Elizabeth,1860,Inggernadhapuram,11.7000,75.6667,1
 Elizabeth,1860,Invermay,-41.3917,147.1303,1
@@ -90,7 +93,7 @@ Elizabeth,1860,Rajamundry,16.9833,81.7833,2
 Elizabeth,1880,Beconsfield,-41.2019,146.8172,1
 Elizabeth,1880,Calcutta,22.5333,88.3167,3
 Elizabeth,1880,Chittagong,22.3383,91.8317,1
-Elizabeth,1880,Concanda,16.9892,82.2475,3
+Elizabeth,1880,Cocanada,16.9891666666667,82.2475,3
 Elizabeth,1880,Cuttack,20.4647,85.8792,1
 Elizabeth,1880,Darjeeling,27.0331,88.2667,1
 Elizabeth,1880,Kakinada,16.9603,82.2381,1
@@ -105,7 +108,7 @@ Elizabeth,1900,Avoca,-41.7819,147.7217,1
 Elizabeth,1900,Battery Point,-42.8897,147.3331,1
 Elizabeth,1900,Burnie,-41.0636,145.8753,3
 Elizabeth,1900,Calcutta,22.5333,88.3167,2
-Elizabeth,1900,Concanda,16.9892,82.2475,2
+Elizabeth,1900,Cocanada,16.9891666666667,82.2475,2
 Elizabeth,1900,Dacca,23.6780,90.4391,3
 Elizabeth,1900,Fitzroy,-37.8011,144.9789,1
 Elizabeth,1900,Gorakpur,26.7547,83.3722,1
@@ -120,51 +123,63 @@ Elizabeth,1900,Queenstown,-42.0803,145.5564,4
 Elizabeth,1900,Ringarooma,-41.2417,147.7364,1
 Elizabeth,1900,Scottsdale,-41.1578,147.5172,1
 Elizabeth,1900,Tasmania,-42.0000,147.0000,1
+Elizabeth,1900,Ulverston,-41.1586111111111,146.181666666667,1
+Elizabeth,1900,Unknown,-31.9522222222222,115.861388888889,3
 Elizabeth,1900,Wynyard,-41.0000,145.7164,2
 Elizabeth,1900,Zeehan,-41.8833,145.3361,4
-Elizabeth,1920,Bankstoen,-33.9167,151.0331,2
-Elizabeth,1920,Bankstown,-33.9167,151.0331,1
+Elizabeth,1920,Bankstown,-33.9167,151.0331,3
 Elizabeth,1920,Barrackpore,22.7658,88.3633,1
-Elizabeth,1920,Burnie,-41.0636,145.8753,3
+Elizabeth,1920,Burnie,-41.0636,145.8753,4
 Elizabeth,1920,Calcutta,22.5333,88.3167,5
+Elizabeth,1920,Cocanada,16.9891666666667,82.2475,5
 Elizabeth,1920,Footscray,-37.8000,144.9000,1
 Elizabeth,1920,Geeveston,-43.1633,146.9253,1
-Elizabeth,1920,Hobart,-42.8822,147.3283,6
+Elizabeth,1920,Hobart,-42.8822,147.3283,10
 Elizabeth,1920,Irish Town,-40.9144,145.1436,2
 Elizabeth,1920,Lahore,31.5497,74.3436,1
 Elizabeth,1920,Latrobe,-41.2361,146.4169,1
 Elizabeth,1920,Launceston,-41.4386,147.1344,3
-Elizabeth,1920,Madras,13.0878,80.2783,1
+Elizabeth,1920,Madras,13.0878,80.2783,5
 Elizabeth,1920,Malacca,2.1958,102.2403,4
 Elizabeth,1920,Scottsdale,-41.1578,147.5172,1
-Elizabeth,1920,Tasmania,-42.0000,147.0000,9
-Elizabeth,1920,Unknown,-31.9522222222222,115.861388888889,1
+Elizabeth,1920,Tasmania,-42.0000,147.0000,8
+Elizabeth,1920,Unknown,-31.9522222222222,115.861388888889,2
+Elizabeth,1920,Vizagapatam ,17.69,83.2091666666667,1
 Elizabeth,1920,Wynyard,-41.0000,145.7164,1
-Elizabeth,1940,Allahabad,25.4489,81.8331,4
+Elizabeth,1940,Allahabad,25.4489,81.8331,7
 Elizabeth,1940,Auckland,-36.7144,174.7219,1
+Elizabeth,1940,Bombay,19.0758333333333,72.8777777777778,2
 Elizabeth,1940,Braddon,-42.5333,147.5667,2
 Elizabeth,1940,Burnie,-41.0636,145.8753,4
 Elizabeth,1940,Calcutta,22.5333,88.3167,5
-Elizabeth,1940,Croydon,51.3619,-0.0942,1
+Elizabeth,1940,Cochin,9.93138888888889,76.2672222222222,1
+Elizabeth,1940,Coonor,11.3469444444444,76.7983333333333,1
+Elizabeth,1940,Croydon,51.3619,-0.0942,2
 Elizabeth,1940,Darwin,-42.5333,147.5667,2
-Elizabeth,1940,Hobart,-42.8822,147.3283,12
+Elizabeth,1940,Footscray,-37.8,144.9,2
+Elizabeth,1940,Hobart,-42.8822,147.3283,19
 Elizabeth,1940,Kogarah,-33.9833,151.1167,2
 Elizabeth,1940,Latrobe,-41.2361,146.4169,1
 Elizabeth,1940,Launceston,-41.4386,147.1344,5
 Elizabeth,1940,Lucknow,26.8392,80.9231,1
 Elizabeth,1940,Perth,-31.9522,115.8614,1
 Elizabeth,1940,Tasmania,-42,147,7
-Elizabeth,1960,Auckland,-36.7144,174.7219,5
+Elizabeth,1940,Vellore,12.9183333333333,79.1325,1
+Elizabeth,1960,Anguganak,-3.58305555555556,142.216666666667,1
+Elizabeth,1960,Auckland,-36.7144,174.7219,8
 Elizabeth,1960,Burnie,-41.0636,145.8753,1
 Elizabeth,1960,Calcutta,22.5333,88.3167,2
-Elizabeth,1960,Croydon,51.3619,-0.0942,2
+Elizabeth,1960,Croydon,51.3619,-0.0942,4
 Elizabeth,1960,Hobart,-42.8822,147.3283,5
 Elizabeth,1960,Manawatu,-40.4667,175.2167,1
 Elizabeth,1960,Palmerston,-40.3500,175.6167,3
 Elizabeth,1960,Sutton,51.3500,-0.2000,2
+Elizabeth,1960,Unknown,-34.4094444444445,145.314027777778,2
 Elizabeth,1960,Uxbridge,51.5464,-0.4747,1
 Elizabeth,1980,Chichester,50.8367,-0.7800,1
+Elizabeth,1980,Croydon,51.3619444444445,-0.0941666666666667,2
 Elizabeth,1980,Hobart,-42.8822,147.3283,2
+Elizabeth,2000,Croydon,51.3619444444445,-0.0941666666666667,1
 George,1820,Port Louis,-20.1617,57.4989,1
 George,1840,Jabalpur,23.1667,79.9500,1
 George,1840,Jhansi,25.4544,78.5819,1
@@ -231,6 +246,7 @@ George,1920,Musoorie,30.4569,78.0547,1
 George,1920,Newcastle -Upon -Tyne,54.9731,-1.6139,1
 George,1920,Rangoon,17.3333,96.2500,16
 George,1920,Sagaing,21.8786,95.9794,1
+George,1920,Secunderabad,17.5041666666667,78.5425,2
 George,1920,Syrian,16.7686,96.2450,1
 George,1920,Tharrawaddy,17.6539,95.7881,1
 George,1920,Trichonopoly,10.8050,78.6856,1
@@ -244,9 +260,9 @@ George,1940,Bombay,19.0758,72.8778,2
 George,1940,Calcutta,22.5333,88.3167,6
 George,1940,Crediton,50.7833,-3.6500,1
 George,1940,Croydon,51.3619,-0.0942,1
-George,1940,Dallas,32.7831,-96.8067,2
 George,1940,Dartford,51.4433,0.2194,1
 George,1940,Durham,54.7767,-1.5756,1
+George,1940,Guildford,51.2352777777778,-0.574166666666667,2
 George,1940,Lambeth,51.4961,-0.1114,2
 George,1940,London,51.5083,-0.1256,4
 George,1940,Lovedale,11.3792,76.6992,1
@@ -260,12 +276,14 @@ George,1940,Norwich,52.6278,1.2983,2
 George,1940,Nuneaton,52.5205,-1.4654,1
 George,1940,Ontario,43.7,-79.4161111111111,2
 George,1940,Perth,-31.9522,115.8614,4
-George,1940,Plymouth,50.3713888888889,-4.14277777777778,1
+George,1940,Plymouth,50.3713888888889,-4.14277777777778,2
 George,1940,Rangoon,17.3333,96.2500,10
-George,1940,Surrey,51.3758,-0.5317,2
+George,1940,Romford,51.575,0.185555555555556,2
+George,1940,Surrey,51.3758,-0.5317,4
 George,1940,Unknown,20.9945,87.1008,8
 George,1940,Vellore,12.9183333333333,79.1325,3
 George,1940,Woking,51.3189,-0.5589,3
+George,1940,Yeovil,50.9413888888889,-2.63194444444445,1
 George,1960,Aylesbury,51.8163888888889,-0.814444444444445,1
 George,1960,Bedford,52.1344,-0.4661,1
 George,1960,Benghazi,32.1167,20.0667,1
@@ -276,7 +294,7 @@ George,1960,Bunbury,-33.3269444444445,115.641111111111,1
 George,1960,Cambridge,52.2053,0.1217,1
 George,1960,Canterbury,51.2789,1.0797,1
 George,1960,Carrolton,37.7983,-121.0700,1
-George,1960,Croydon,51.3619,-0.0942,5
+George,1960,Croydon,51.3619,-0.0942,12
 George,1960,Dallas,32.7831,-96.8067,1
 George,1960,Derby,52.9228,-1.4764,1
 George,1960,Durham,54.7767,-1.5756,2
@@ -289,6 +307,7 @@ George,1960,Newton Abbot,50.5283,-3.6117,1
 George,1960,Northampton,52.2500,-0.8833,1
 George,1960,Norwich,52.6278,1.2983,3
 George,1960,Perth,-31.9522,115.8614,10
+George,1960,Romford,51.575,0.185555555555556,1
 George,1960,Sheffield,53.3828,-1.4658,5
 George,1960,Shoreham,50.8339,-0.2742,1
 George,1960,Sidcup,51.4261,0.1033,1
@@ -302,9 +321,12 @@ George,1980,Aylesbury,51.8163888888889,-0.814444444444445,1
 George,1980,Berlin,52.5242,13.4103,2
 George,1980,Bromley,51.4058,0.0150,2
 George,1980,Cambridge,52.2053,0.1217,2
+George,1980,Croydon,51.3619444444445,-0.0941666666666667,1
 George,1980,Dallas,32.7831,-96.8067,7
 George,1980,Derby,52.9228,-1.4764,1
 George,1980,Durham,54.7767,-1.5756,2
+George,1980,El Paso,31.7586111111111,-106.486666666667,1
+George,1980,Guildford,51.2352777777778,-0.574166666666667,1
 George,1980,Norwich,52.6278,1.2983,1
 George,1980,Perth,-31.9522,115.8614,11
 George,1980,Philadelphia,39.9519,-75.1642,3
@@ -373,6 +395,7 @@ John,1980,Surrey,51.3758,-0.5317,1
 John,1980,Sutton,51.3500,-0.2000,1
 John,1980,Unknown,51.5463888888889,-0.474722222222222,2
 John,2000,Brighton,50.8283,-0.1394,2
+John,2000,Bristol,51.455,-2.59638888888889,2
 John,2000,Eastbourne,50.7686,0.2844,2
 John,2000,Lewisham,51.4642,-0.0117,1
 John,2000,Paris,48.8533,2.3486,1
