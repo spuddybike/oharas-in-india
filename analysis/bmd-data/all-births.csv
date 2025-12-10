@@ -18,7 +18,7 @@ Amelia,5,South East Asia,14
 Amelia,5,UK & Ireland,5
 Amelia,6,Africa,3
 Amelia,6,Australia & New Zealand,12
-Amelia,6,North America,23
+Amelia,6,North America,24
 Amelia,6,South East Asia,1
 Amelia,6,UK & Ireland,13
 Amelia,7,North America,5
@@ -29,16 +29,18 @@ Elizabeth,3,Australia & New Zealand,15
 Elizabeth,3,Burma,3
 Elizabeth,3,India,20
 Elizabeth,4,At sea,1
-Elizabeth,4,Australia & New Zealand,45
+Elizabeth,4,Australia & New Zealand,47
 Elizabeth,4,India,19
-Elizabeth,5,Australia & New Zealand,43
+Elizabeth,5,Australia & New Zealand,47
 Elizabeth,5,India,27
+Elizabeth,5,North America,7
 Elizabeth,5,South East Asia,5
-Elizabeth,6,Australia & New Zealand,59
-Elizabeth,6,India,14
+Elizabeth,6,Australia & New Zealand,67
+Elizabeth,6,India,15
+Elizabeth,6,North America,9
 Elizabeth,6,UK & Ireland,5
 Elizabeth,7,Australia & New Zealand,2
-Elizabeth,7,UK & Ireland,7
+Elizabeth,7,UK & Ireland,8
 Elizabeth,8,UK & Ireland,1
 George,1,Africa,1
 George,2,Burma,1
@@ -57,7 +59,7 @@ George,5,Burma,30
 George,5,Europe,3
 George,5,India,33
 George,5,South East Asia,3
-George,5,UK & Ireland,46
+George,5,UK & Ireland,49
 George,6,Australia & New Zealand,25
 George,6,Burma,2
 George,6,Europe,2
@@ -76,11 +78,11 @@ John,4,India,5
 John,5,Burma,15
 John,5,India,7
 John,6,Burma,16
-John,6,India,19
+John,6,India,20
 John,6,North America,1
 John,6,South East Asia,3
 John,6,UK & Ireland,4
 John,7,Africa,1
-John,7,Europe,2
+John,7,Europe,4
 John,7,UK & Ireland,39
 John,8,UK & Ireland,6

@@ -20,15 +20,14 @@ Amelia,1920,North America,12
 Amelia,1920,South East Asia,7
 Amelia,1920,UK & Ireland,3
 Amelia,1940,Australia & New Zealand,5
-Amelia,1940,Europe,8
+Amelia,1940,Europe,9
 Amelia,1940,India,2
-Amelia,1940,North America,21
-Amelia,1940,South East Asia,9
+Amelia,1940,North America,22
+Amelia,1940,South East Asia,8
 Amelia,1940,UK & Ireland,4
-Amelia,1952,North America,1
 Amelia,1960,Africa,3
 Amelia,1960,Australia & New Zealand,7
-Amelia,1960,North America,17
+Amelia,1960,North America,18
 Amelia,1960,UK & Ireland,5
 Amelia,1980,North America,5
 Amelia,1980,UK & Ireland,7
@@ -42,18 +41,21 @@ Elizabeth,1860,India,21
 Elizabeth,1880,At sea,1
 Elizabeth,1880,Australia & New Zealand,21
 Elizabeth,1880,India,13
-Elizabeth,1900,Australia & New Zealand,35
+Elizabeth,1900,Australia & New Zealand,37
 Elizabeth,1900,India,9
-Elizabeth,1920,Australia & New Zealand,37
+Elizabeth,1900,North America,3
+Elizabeth,1920,Australia & New Zealand,40
 Elizabeth,1920,India,18
+Elizabeth,1920,North America,4
 Elizabeth,1920,South East Asia,4
-Elizabeth,1940,Australia & New Zealand,46
-Elizabeth,1940,India,18
+Elizabeth,1940,Australia & New Zealand,54
+Elizabeth,1940,India,19
+Elizabeth,1940,North America,12
 Elizabeth,1940,UK & Ireland,2
-Elizabeth,1960,Australia & New Zealand,20
+Elizabeth,1960,Australia & New Zealand,21
 Elizabeth,1960,India,2
 Elizabeth,1960,South East Asia,1
-Elizabeth,1960,UK & Ireland,7
+Elizabeth,1960,UK & Ireland,8
 Elizabeth,1980,Australia & New Zealand,2
 Elizabeth,1980,UK & Ireland,3
 Elizabeth,2000,UK & Ireland,1
@@ -85,11 +87,11 @@ George,1960,Burma,1
 George,1960,Europe,2
 George,1960,North America,3
 George,1960,South East Asia,3
-George,1960,UK & Ireland,45
+George,1960,UK & Ireland,48
 George,1980,Australia & New Zealand,11
 George,1980,Europe,2
 George,1980,North America,11
-George,1980,UK & Ireland,17
+George,1980,UK & Ireland,19
 George,2000,Australia & New Zealand,2
 George,2000,North America,3
 George,2000,UK & Ireland,4
@@ -105,14 +107,14 @@ John,1900,India,3
 John,1920,Burma,9
 John,1920,India,4
 John,1940,Burma,10
-John,1940,India,19
+John,1940,India,20
 John,1940,South East Asia,3
 John,1940,UK & Ireland,1
 John,1960,Africa,1
 John,1960,Burma,7
 John,1960,North America,1
 John,1960,UK & Ireland,24
-John,1980,Europe,1
+John,1980,Europe,3
 John,1980,UK & Ireland,17
 John,2000,Europe,1
 John,2000,UK & Ireland,7
