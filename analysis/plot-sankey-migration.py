@@ -16,7 +16,7 @@ df = pd.read_csv("bmd-data/sankey-ohara-bmd.csv")
 # 'North America': '#9bddb1', # aquamarine
 # 'Europe': '#d6cfa2', # goldenrod
 # 'Alive': 'mistyrose', 
-# 'At sea': '#a89a49', # dark-khaki
+# 'South America': '#a89a49', # dark-khaki
 # 'India' :'#836394', # medium purple
 
 color_discrete_map = {
@@ -28,6 +28,7 @@ color_discrete_map = {
                     'BUK & Ireland': '#643c6a', # purple 
                     'BNorth America': '#9bddb1', # aquamarine
                     'BEurope': '#d6cfa2', # goldenrod
+                    'BSouth America' :  '#a89a49', # dark-khaki
                     'BAlive': '#8cdaec', # skyblue
                     'MIndia': '#b45248', # indiared
                     'MBurma': '#d48c84', # rosybrown
@@ -37,6 +38,7 @@ color_discrete_map = {
                     'MUK & Ireland': '#643c6a', # purple 
                     'MNorth America': '#9bddb1', # aquamarine
                     'MEurope': '#d6cfa2', # goldenrod
+                    'MSouth America' :  '#a89a49', # dark-khaki
                     'MAlive': '#8cdaec', # skyblue
                     'MUnmarried': '#a89a49', # dark-khaki  
                     'MDied in Childhood' : 'black',
@@ -49,7 +51,7 @@ color_discrete_map = {
                     'DNorth America': '#9bddb1', # aquamarine
                     'DEurope': '#d6cfa2', # goldenrod
                     'DAlive': '#8cdaec', # skyblue
-                    'DAt sea': '#a89a49', # dark-khaki
+                    'DSouth America' :  '#a89a49', # dark-khaki
                  }
 
 filtered_df = df[~df["Death Region"].str.contains('Alive')]
@@ -108,50 +110,6 @@ fig.write_image("images/bmd-sankey-all-dead.png")
 #### Generation 1
 
 df = pd.read_csv("bmd-data/sankey-ohara-bmd.csv")
-
-# 'Burma': '#d48c84', # rosybrown
-# 'South East Asia': '#167288', # teal
-# 'Australia & New Zealand': '#3cb464', # medium sea green
-# 'Africa': '#8cdaec', # skyblue
-# 'UK & Ireland': '#643c6a', # purple 
-# 'North America': '#9bddb1', # aquamarine
-# 'Europe': '#d6cfa2', # goldenrod
-# 'Alive': 'mistyrose', 
-# 'At sea': '#a89a49', # dark-khaki
-# 'India' :'#836394', # medium purple
-
-color_discrete_map = {
-                    'BIndia': '#b45248', # indiared
-                    'BBurma': '#d48c84', # rosybrown
-                    'BSouth East Asia': '#167288', # teal
-                    'BAustralia & New Zealand': '#3cb464', # medium sea green
-                    'BAfrica': 'lightgrey', # skyblue
-                    'BUK & Ireland': '#643c6a', # purple 
-                    'BNorth America': '#9bddb1', # aquamarine
-                    'BEurope': '#d6cfa2', # goldenrod
-                    'BAlive': '#8cdaec', # skyblue
-                    'MIndia': '#b45248', # indiared
-                    'MBurma': '#d48c84', # rosybrown
-                    'MSouth East Asia': '#167288', # teal
-                    'MAustralia & New Zealand': '#3cb464', # medium sea green
-                    'MAfrica': 'lightgrey', # skyblue
-                    'MUK & Ireland': '#643c6a', # purple 
-                    'MNorth America': '#9bddb1', # aquamarine
-                    'MEurope': '#d6cfa2', # goldenrod
-                    'MAlive': '#8cdaec', # skyblue
-                    'MUnmarried': '#a89a49', # dark-khaki  
-                    'MDied in Childhood' : 'black',
-                    'DIndia': '#b45248', # indiared
-                    'DBurma': '#d48c84', # rosybrown
-                    'DSouth East Asia': '#167288', # teal
-                    'DAustralia & New Zealand': '#3cb464', # medium sea green
-                    'DAfrica': 'lightgrey', # skyblue
-                    'DUK & Ireland': '#643c6a', # purple 
-                    'DNorth America': '#9bddb1', # aquamarine
-                    'DEurope': '#d6cfa2', # goldenrod
-                    'DAlive': '#8cdaec', # skyblue
-                    'DAt sea': '#a89a49', # dark-khaki
-                 }
 
 filtered_df = df[df["Generation"]==1]
 
@@ -223,39 +181,6 @@ df = pd.read_csv("bmd-data/sankey-ohara-bmd.csv")
 # 'At sea': '#a89a49', # dark-khaki
 # 'India' :'#836394', # medium purple
 
-color_discrete_map = {
-                    'BIndia': '#b45248', # indiared
-                    'BBurma': '#d48c84', # rosybrown
-                    'BSouth East Asia': '#167288', # teal
-                    'BAustralia & New Zealand': '#3cb464', # medium sea green
-                    'BAfrica': 'lightgrey', # skyblue
-                    'BUK & Ireland': '#643c6a', # purple 
-                    'BNorth America': '#9bddb1', # aquamarine
-                    'BEurope': '#d6cfa2', # goldenrod
-                    'BAlive': '#8cdaec', # skyblue
-                    'MIndia': '#b45248', # indiared
-                    'MBurma': '#d48c84', # rosybrown
-                    'MSouth East Asia': '#167288', # teal
-                    'MAustralia & New Zealand': '#3cb464', # medium sea green
-                    'MAfrica': 'lightgrey', # skyblue
-                    'MUK & Ireland': '#643c6a', # purple 
-                    'MNorth America': '#9bddb1', # aquamarine
-                    'MEurope': '#d6cfa2', # goldenrod
-                    'MAlive': '#8cdaec', # skyblue
-                    'MUnmarried': '#a89a49', # dark-khaki  
-                    'MDied in Childhood' : 'black',
-                    'DIndia': '#b45248', # indiared
-                    'DBurma': '#d48c84', # rosybrown
-                    'DSouth East Asia': '#167288', # teal
-                    'DAustralia & New Zealand': '#3cb464', # medium sea green
-                    'DAfrica': 'lightgrey', # skyblue
-                    'DUK & Ireland': '#643c6a', # purple 
-                    'DNorth America': '#9bddb1', # aquamarine
-                    'DEurope': '#d6cfa2', # goldenrod
-                    'DAlive': '#8cdaec', # skyblue
-                    'DAt sea': '#a89a49', # dark-khaki
-                 }
-
 filtered_df = df[df["Generation"]==2]
 
 filtered_df["Birth Region"] = 'B' + filtered_df["Birth Region"].astype(str)
@@ -316,50 +241,6 @@ fig1.write_image("images/bmd-sankey-generation-2.png")
 
 df = pd.read_csv("bmd-data/sankey-ohara-bmd.csv")
 
-# 'Burma': '#d48c84', # rosybrown
-# 'South East Asia': '#167288', # teal
-# 'Australia & New Zealand': '#3cb464', # medium sea green
-# 'Africa': '#8cdaec', # skyblue
-# 'UK & Ireland': '#643c6a', # purple 
-# 'North America': '#9bddb1', # aquamarine
-# 'Europe': '#d6cfa2', # goldenrod
-# 'Alive': 'mistyrose', 
-# 'At sea': '#a89a49', # dark-khaki
-# 'India' :'#836394', # medium purple
-
-color_discrete_map = {
-                    'BIndia': '#b45248', # indiared
-                    'BBurma': '#d48c84', # rosybrown
-                    'BSouth East Asia': '#167288', # teal
-                    'BAustralia & New Zealand': '#3cb464', # medium sea green
-                    'BAfrica': 'lightgrey', # skyblue
-                    'BUK & Ireland': '#643c6a', # purple 
-                    'BNorth America': '#9bddb1', # aquamarine
-                    'BEurope': '#d6cfa2', # goldenrod
-                    'BAlive': '#8cdaec', # skyblue
-                    'MIndia': '#b45248', # indiared
-                    'MBurma': '#d48c84', # rosybrown
-                    'MSouth East Asia': '#167288', # teal
-                    'MAustralia & New Zealand': '#3cb464', # medium sea green
-                    'MAfrica': 'lightgrey', # skyblue
-                    'MUK & Ireland': '#643c6a', # purple 
-                    'MNorth America': '#9bddb1', # aquamarine
-                    'MEurope': '#d6cfa2', # goldenrod
-                    'MAlive': '#8cdaec', # skyblue
-                    'MUnmarried': '#a89a49', # dark-khaki  
-                    'MDied in Childhood' : 'black',
-                    'DIndia': '#b45248', # indiared
-                    'DBurma': '#d48c84', # rosybrown
-                    'DSouth East Asia': '#167288', # teal
-                    'DAustralia & New Zealand': '#3cb464', # medium sea green
-                    'DAfrica': 'lightgrey', # skyblue
-                    'DUK & Ireland': '#643c6a', # purple 
-                    'DNorth America': '#9bddb1', # aquamarine
-                    'DEurope': '#d6cfa2', # goldenrod
-                    'DAlive': '#8cdaec', # skyblue
-                    'DAt sea': '#a89a49', # dark-khaki
-                 }
-
 filtered_df = df[df["Generation"]==3]
 
 filtered_df["Birth Region"] = 'B' + filtered_df["Birth Region"].astype(str)
@@ -391,8 +272,6 @@ print (unique_labels)
 tmp_colors = (pd.Series(unique_labels)).map(color_discrete_map) 
 colors_for_nodes = list(tmp_colors) 
 
-
-
 fig2 = go.Figure(data=[go.Sankey(
     valueformat = ".0f",
     node = dict(
@@ -418,50 +297,6 @@ fig2.write_image("images/bmd-sankey-generation-3.png")
 #### Generation 4
 
 df = pd.read_csv("bmd-data/sankey-ohara-bmd.csv")
-
-# 'Burma': '#d48c84', # rosybrown
-# 'South East Asia': '#167288', # teal
-# 'Australia & New Zealand': '#3cb464', # medium sea green
-# 'Africa': '#8cdaec', # skyblue
-# 'UK & Ireland': '#643c6a', # purple 
-# 'North America': '#9bddb1', # aquamarine
-# 'Europe': '#d6cfa2', # goldenrod
-# 'Alive': 'mistyrose', 
-# 'At sea': '#a89a49', # dark-khaki
-# 'India' :'#836394', # medium purple
-
-color_discrete_map = {
-                    'BIndia': '#b45248', # indiared
-                    'BBurma': '#d48c84', # rosybrown
-                    'BSouth East Asia': '#167288', # teal
-                    'BAustralia & New Zealand': '#3cb464', # medium sea green
-                    'BAfrica': 'lightgrey', # skyblue
-                    'BUK & Ireland': '#643c6a', # purple 
-                    'BNorth America': '#9bddb1', # aquamarine
-                    'BEurope': '#d6cfa2', # goldenrod
-                    'BAlive': '#8cdaec', # skyblue
-                    'MIndia': '#b45248', # indiared
-                    'MBurma': '#d48c84', # rosybrown
-                    'MSouth East Asia': '#167288', # teal
-                    'MAustralia & New Zealand': '#3cb464', # medium sea green
-                    'MAfrica': 'lightgrey', # skyblue
-                    'MUK & Ireland': '#643c6a', # purple 
-                    'MNorth America': '#9bddb1', # aquamarine
-                    'MEurope': '#d6cfa2', # goldenrod
-                    'MAlive': '#8cdaec', # skyblue
-                    'MUnmarried': '#a89a49', # dark-khaki  
-                    'MDied in Childhood' : 'black',
-                    'DIndia': '#b45248', # indiared
-                    'DBurma': '#d48c84', # rosybrown
-                    'DSouth East Asia': '#167288', # teal
-                    'DAustralia & New Zealand': '#3cb464', # medium sea green
-                    'DAfrica': 'lightgrey', # skyblue
-                    'DUK & Ireland': '#643c6a', # purple 
-                    'DNorth America': '#9bddb1', # aquamarine
-                    'DEurope': '#d6cfa2', # goldenrod
-                    'DAlive': '#8cdaec', # skyblue
-                    'DAt sea': '#a89a49', # dark-khaki
-                 }
 
 filtered_df = df[df["Generation"]==4]
 
@@ -523,50 +358,6 @@ fig3.write_image("images/bmd-sankey-generation-4.png")
 
 df = pd.read_csv("bmd-data/sankey-ohara-bmd.csv")
 
-# 'Burma': '#d48c84', # rosybrown
-# 'South East Asia': '#167288', # teal
-# 'Australia & New Zealand': '#3cb464', # medium sea green
-# 'Africa': '#8cdaec', # skyblue
-# 'UK & Ireland': '#643c6a', # purple 
-# 'North America': '#9bddb1', # aquamarine
-# 'Europe': '#d6cfa2', # goldenrod
-# 'Alive': 'mistyrose', 
-# 'At sea': '#a89a49', # dark-khaki
-# 'India' :'#836394', # medium purple
-
-color_discrete_map = {
-                    'BIndia': '#b45248', # indiared
-                    'BBurma': '#d48c84', # rosybrown
-                    'BSouth East Asia': '#167288', # teal
-                    'BAustralia & New Zealand': '#3cb464', # medium sea green
-                    'BAfrica': 'lightgrey', # skyblue
-                    'BUK & Ireland': '#643c6a', # purple 
-                    'BNorth America': '#9bddb1', # aquamarine
-                    'BEurope': '#d6cfa2', # goldenrod
-                    'BAlive': '#8cdaec', # skyblue
-                    'MIndia': '#b45248', # indiared
-                    'MBurma': '#d48c84', # rosybrown
-                    'MSouth East Asia': '#167288', # teal
-                    'MAustralia & New Zealand': '#3cb464', # medium sea green
-                    'MAfrica': 'lightgrey', # skyblue
-                    'MUK & Ireland': '#643c6a', # purple 
-                    'MNorth America': '#9bddb1', # aquamarine
-                    'MEurope': '#d6cfa2', # goldenrod
-                    'MAlive': '#8cdaec', # skyblue
-                    'MUnmarried': '#a89a49', # dark-khaki  
-                    'MDied in Childhood' : 'black',
-                    'DIndia': '#b45248', # indiared
-                    'DBurma': '#d48c84', # rosybrown
-                    'DSouth East Asia': '#167288', # teal
-                    'DAustralia & New Zealand': '#3cb464', # medium sea green
-                    'DAfrica': 'lightgrey', # skyblue
-                    'DUK & Ireland': '#643c6a', # purple 
-                    'DNorth America': '#9bddb1', # aquamarine
-                    'DEurope': '#d6cfa2', # goldenrod
-                    'DAlive': '#8cdaec', # skyblue
-                    'DAt sea': '#a89a49', # dark-khaki
-                 }
-
 filtered_df = df[df["Generation"]==5]
 
 filtered_df["Birth Region"] = 'B' + filtered_df["Birth Region"].astype(str)
@@ -627,50 +418,6 @@ fig4.write_image("images/bmd-sankey-generation-5.png")
 
 df = pd.read_csv("bmd-data/sankey-ohara-bmd.csv")
 
-# 'Burma': '#d48c84', # rosybrown
-# 'South East Asia': '#167288', # teal
-# 'Australia & New Zealand': '#3cb464', # medium sea green
-# 'Africa': '#8cdaec', # skyblue
-# 'UK & Ireland': '#643c6a', # purple 
-# 'North America': '#9bddb1', # aquamarine
-# 'Europe': '#d6cfa2', # goldenrod
-# 'Alive': 'mistyrose', 
-# 'At sea': '#a89a49', # dark-khaki
-# 'India' :'#836394', # medium purple
-
-color_discrete_map = {
-                    'BIndia': '#b45248', # indiared
-                    'BBurma': '#d48c84', # rosybrown
-                    'BSouth East Asia': '#167288', # teal
-                    'BAustralia & New Zealand': '#3cb464', # medium sea green
-                    'BAfrica': 'lightgrey', # skyblue
-                    'BUK & Ireland': '#643c6a', # purple 
-                    'BNorth America': '#9bddb1', # aquamarine
-                    'BEurope': '#d6cfa2', # goldenrod
-                    'BAlive': '#8cdaec', # skyblue
-                    'MIndia': '#b45248', # indiared
-                    'MBurma': '#d48c84', # rosybrown
-                    'MSouth East Asia': '#167288', # teal
-                    'MAustralia & New Zealand': '#3cb464', # medium sea green
-                    'MAfrica': 'lightgrey', # skyblue
-                    'MUK & Ireland': '#643c6a', # purple 
-                    'MNorth America': '#9bddb1', # aquamarine
-                    'MEurope': '#d6cfa2', # goldenrod
-                    'MAlive': '#8cdaec', # skyblue
-                    'MUnmarried': '#a89a49', # dark-khaki  
-                    'MDied in Childhood' : 'black',
-                    'DIndia': '#b45248', # indiared
-                    'DBurma': '#d48c84', # rosybrown
-                    'DSouth East Asia': '#167288', # teal
-                    'DAustralia & New Zealand': '#3cb464', # medium sea green
-                    'DAfrica': 'lightgrey', # skyblue
-                    'DUK & Ireland': '#643c6a', # purple 
-                    'DNorth America': '#9bddb1', # aquamarine
-                    'DEurope': '#d6cfa2', # goldenrod
-                    'DAlive': '#8cdaec', # skyblue
-                    'DAt sea': '#a89a49', # dark-khaki
-                 }
-
 filtered_df = df[df["Generation"]==6]
 
 filtered_df["Birth Region"] = 'B' + filtered_df["Birth Region"].astype(str)
@@ -730,50 +477,6 @@ fig5.write_image("images/bmd-sankey-generation-6.png")
 #### Generation 7
 
 df = pd.read_csv("bmd-data/sankey-ohara-bmd.csv")
-
-# 'Burma': '#d48c84', # rosybrown
-# 'South East Asia': '#167288', # teal
-# 'Australia & New Zealand': '#3cb464', # medium sea green
-# 'Africa': '#8cdaec', # skyblue
-# 'UK & Ireland': '#643c6a', # purple 
-# 'North America': '#9bddb1', # aquamarine
-# 'Europe': '#d6cfa2', # goldenrod
-# 'Alive': 'mistyrose', 
-# 'At sea': '#a89a49', # dark-khaki
-# 'India' :'#836394', # medium purple
-
-color_discrete_map = {
-                    'BIndia': '#b45248', # indiared
-                    'BBurma': '#d48c84', # rosybrown
-                    'BSouth East Asia': '#167288', # teal
-                    'BAustralia & New Zealand': '#3cb464', # medium sea green
-                    'BAfrica': 'lightgrey', # skyblue
-                    'BUK & Ireland': '#643c6a', # purple 
-                    'BNorth America': '#9bddb1', # aquamarine
-                    'BEurope': '#d6cfa2', # goldenrod
-                    'BAlive': '#8cdaec', # skyblue
-                    'MIndia': '#b45248', # indiared
-                    'MBurma': '#d48c84', # rosybrown
-                    'MSouth East Asia': '#167288', # teal
-                    'MAustralia & New Zealand': '#3cb464', # medium sea green
-                    'MAfrica': 'lightgrey', # skyblue
-                    'MUK & Ireland': '#643c6a', # purple 
-                    'MNorth America': '#9bddb1', # aquamarine
-                    'MEurope': '#d6cfa2', # goldenrod
-                    'MAlive': '#8cdaec', # skyblue
-                    'MUnmarried': '#a89a49', # dark-khaki  
-                    'MDied in Childhood' : 'black',
-                    'DIndia': '#b45248', # indiared
-                    'DBurma': '#d48c84', # rosybrown
-                    'DSouth East Asia': '#167288', # teal
-                    'DAustralia & New Zealand': '#3cb464', # medium sea green
-                    'DAfrica': 'lightgrey', # skyblue
-                    'DUK & Ireland': '#643c6a', # purple 
-                    'DNorth America': '#9bddb1', # aquamarine
-                    'DEurope': '#d6cfa2', # goldenrod
-                    'DAlive': '#8cdaec', # skyblue
-                    'DAt sea': '#a89a49', # dark-khaki
-                 }
 
 filtered_df = df[df["Generation"]==7]
 
